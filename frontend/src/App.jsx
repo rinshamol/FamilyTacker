@@ -1,9 +1,12 @@
 import { useState } from "react";
+import MapComponent from "./components/MapComponent";
 
 function App() {
-  const [count, setCount] = useState(0);
-
-  return <div className="App">Family Tracker</div>;
+ 
+  return <div className="App">
+    <h1>Family Tracker</h1>
+    <MapComponent />
+  </div>;
 }
 
 export default App;
